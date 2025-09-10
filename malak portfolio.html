@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malak's Portfolio</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 0; background: #f4f4f9; color: #333; }
+    header { background: linear-gradient(135deg, #0077cc, #00b894); color: white; text-align: center; padding: 4rem 1rem; }
+    header h1 { margin: 0; font-size: 2.5rem; animation: fadeInDown 1s ease; }
+    header p { margin-top: 0.5rem; font-size: 1.2rem; animation: fadeInUp 1.2s ease; }
+
+    section { max-width: 900px; margin: 3rem auto; padding: 1rem; animation: fadeIn 1.5s ease; }
+    h2 { color: #0077cc; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+
+    .project { background: white; padding: 1rem; margin: 1rem 0; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .project:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+
+    footer { background: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    a { color: #00b894; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Animations */
+    @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px);} to {opacity: 1; transform: translateY(0);} }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Malak</h1>
+    <p>Engineering Student | Future Innovator | Portfolio</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Malak, a student passionate about engineering and technology. I created this portfolio to showcase my projects, skills, and journey as an innovator.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1 – Smart Device</h3>
+      <p>A simple engineering project where I explored IoT and automation. Built using Arduino + sensors.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2 – Portfolio Website</h3>
+      <p>This website itself! Designed to highlight my skills and connect with opportunities.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hello@malak.com">hello@malak.com</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/malak</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Malak. All rights reserved.</p>
+  </footer>
+</body>
+</html>
